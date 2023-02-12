@@ -23,4 +23,7 @@ and the original cluster size will not be changed during the functions in the ap
 Otherwise you can use choose `All` without filtering based on the project
 - Add the required regions to `aws_functions.py` for the `enabledRegions` variable
 
+![195410216-b4ae11be-832f-448e-bf74-5001518ff804](https://user-images.githubusercontent.com/39459414/218305776-8089b677-5206-4e26-acd3-756bbb68059c.png)
+![195410210-ecd33d8e-79fb-4708-aef5-78af900d85e2](https://user-images.githubusercontent.com/39459414/218305780-5cadb56d-6192-4e29-8b4c-90a621bebad2.png)
+![195410199-e9184a68-06c8-46b8-b6d5-ad8aee563d58 (1)](https://user-images.githubusercontent.com/39459414/218305785-55245f02-d75a-479e-8d39-38e390b6a82b.png)
 
