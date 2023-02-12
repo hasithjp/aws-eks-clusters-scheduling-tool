@@ -1,0 +1,4 @@
+h2o-wave==0.21.0
+python-dateutil==2.8.2
+boto3==1.24.77
+numpy==1.21.6

@@ -1,0 +1,21 @@
+[App]
+Name = "aws-eks-scheduling-tool"
+Version = "1.0.0"
+Title = "Manage AWS EKS Clusters"
+Description = "Manage AWS EKS Clusters Based on Schedules"
+Tags = ["DEVOPS"]
+InstanceLifecycle = "MANAGED"
+
+[Runtime]
+Module = "src.main"
+EnableOIDC = true
+
+[[Env]]
+Name = "AWS_ACCESS_KEY_ID"
+Secret = "aws-eks-scheduling-tool"
+SecretKey = "aws-key-id"
+
+[[Env]]
+Name = "AWS_SECRET_ACCESS_KEY"
+Secret = "aws-eks-scheduling-tool"
+SecretKey = "aws-secret-key"
