@@ -2,7 +2,7 @@ AWS EKS Scheduling Tool
 =======
 
 This is application is implemented using an open source tool called [H2O Wave](https://wave.h2o.ai/) by [H2O.ai](https://h2o.ai/). 
-This app is built to manage EKS clusters across all the enabled regions in AWS root account from one place and it 
+This app is built to manage bulk EKS clusters across all the enabled regions in AWS root account from one place and it 
 enables us to stop/start clusters on demand and set/remove scheduled actions to stop clusters on weekends 
 automatically based on the given timezone. Furthermore, the app will show the existing scheduled actions if available 
 and the original cluster size will not be changed during the functions in the app.
